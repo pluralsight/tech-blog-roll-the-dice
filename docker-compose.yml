@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  roll_the_dice:
+    build:
+      context: ./
+    volumes:
+      - ./:/opt/roll-the-dice
+    command: /bin/bash
